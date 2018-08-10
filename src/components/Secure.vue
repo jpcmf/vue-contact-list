@@ -85,7 +85,7 @@
           let data = {
             'id': doc.id,
             'firstname': doc.data().firstname,
-            // 'lastname': doc.data().lastname,
+            'lastname': doc.data().lastname,
             'emailaddress': doc.data().emailaddress,
             'phonenumber': doc.data().phonenumber,
             'slug': doc.data().slug

@@ -30,8 +30,8 @@
       return {
         authenticated: false,
         mockAccount: {
-          username: 'joao',
-          password: 'joao'
+          username: 'leads',
+          password: 'leads'
         }
       }
     },
