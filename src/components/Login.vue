@@ -1,10 +1,10 @@
 <template lang="html">
-  <section id="login" class="h-100">
+  <section id="login" class="login h-100">
     <div class="container h-100">
       <div class="row h-100 justify-content-center align-items-center">
-        <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+        <div class="col-sm-8 col-md-6 col-lg-4 mx-auto">
           <img class="d-block mx-auto" src="../assets/logo.png">
-          <div class="card card-signin my-5">
+          <div class="card card-signin my-4">
             <div class="card-body">
               <h5 class="card-title text-center">Sign In</h5>
               <form class="form-signin">
@@ -64,6 +64,12 @@
     --input-padding-y: .75rem;
   }
 
+  .login {
+    img {
+      max-width: 200px;
+    }
+  }
+
   .card-signin {
     border: 0;
     border-radius: 1rem;
@@ -77,6 +83,7 @@
       padding: 2rem;
     }
   }
+
   .form-signin {
     width: 100%;
 
