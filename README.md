@@ -1,7 +1,3 @@
-# webapp
-
-> My first webapp
-
 ## Build Setup
 
 ``` bash
@@ -18,4 +14,11 @@ npm run build
 npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Deploy Stuff
+Every merge within master branch will deploy a new website version - no need to commit /dist/ folder.
+This site is hosted by Netlify - the /dist/ folder is generated automatically on each push.
+
+## License
+
+MIT License © João Paulo C M Fricks
+Made with 💙 in Brazil
